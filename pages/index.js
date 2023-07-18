@@ -12,11 +12,19 @@ export default function Home() {
 
       <main>
         <Header title="This is my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
+        <h2>
+          Do you struggle with finding friends who understand the challenges you face at home?
+        </h2>
+        <p>
+          Fill out our short form. Find a local buddy. It's that easy.
         </p>
+        <p>Comrade is the first peer support platform that intelligently matches youth with local buddies who share relatable experiences of loss or adversity in their families.</p>
 
-        <form name="contact" method="POST" data-netlify="true"> 
+        {/* <p className="description">
+          Get started by editing <code>pages/index.js</code>
+        </p> */}
+
+        {/* <form name="contact" method="POST" data-netlify="true">
           <p>
             <label>Your Name: <input type="text" name="name" /></label>
           </p>
@@ -35,7 +43,8 @@ export default function Home() {
           <p>
             <button type="submit">Send</button>
           </p>
-        </form>
+        </form> */}
+
 
       </main>
 
