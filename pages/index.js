@@ -12,11 +12,11 @@ export default function Home() {
 
       <main>
         <Header title="This is my app!" />
-        <p className="description">
+        {/* <p className="description">
           Get started by editing <code>pages/index.js</code>
-        </p>
+        </p> */}
 
-        <form name="contact" method="POST" data-netlify="true"> 
+        <form name="contact" method="POST" data-netlify="true">
           <p>
             <label>Your Name: <input type="text" name="name" /></label>
           </p>
@@ -36,6 +36,7 @@ export default function Home() {
             <button type="submit">Send</button>
           </p>
         </form>
+
 
       </main>
 
